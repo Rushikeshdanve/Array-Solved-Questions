@@ -5,10 +5,10 @@ public class ReverseEmptyArray {
 
         System.out.print("arr2={");
 
-        for(i=0;i<arr.length;i++){
+        for(int i=0;i<arr.length;i++){
             arr2[i]=arr[arr.length-1-i];
 
-            System.out.print(arr2[i]+(i<arr.length-1?",":)" ));
+            System.out.print(arr2[i] + (i<arr.length - 1 ? ",":""));
         }
             System.out.println("}");
     }
