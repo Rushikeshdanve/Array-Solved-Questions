@@ -1,8 +1,8 @@
 public class FindSecondMax {
     public static void main(String[] args) {
-        int arr[] = {10, 42, 45, 39, 29, 14};
+        int arr[] = {10, 42, 45, 39, 29, 14,444,11};
 
-        int min = Integer.MAX_VALUE; // Initialize with the largest possible value
+        int min = Integer.MAX_VALUE; 
         int secondMin = Integer.MAX_VALUE;
 
         for (int i = 0; i < arr.length; i++) {
