@@ -13,7 +13,6 @@ public class FindSecondMax {
                 secondMin = arr[i]; // Update secondMin if the current element is between min and secondMin
             }
         }
-
         if (secondMin == Integer.MAX_VALUE) {
             System.out.println("No second minimum value found.");
         } else {
