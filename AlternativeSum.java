@@ -4,7 +4,6 @@ public class AlternativeSum {
         int sum=0;
 
         for(int i=0;i<arr.length;i=i+2){
-
             sum=sum+arr[i];
         }
         System.out.println(sum);
