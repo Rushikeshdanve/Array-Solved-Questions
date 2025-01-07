@@ -1,6 +1,6 @@
 public class StringBasic {
     public static void main(String[] args) {
-        String s="Dell Latitude 5400";
+        String s="Hey Dev's";
 
         for (int i = 0;i < s.length(); i++)
         {
